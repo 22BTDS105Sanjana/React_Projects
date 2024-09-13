@@ -1,0 +1,21 @@
+h1{
+    padding: 50px;
+}
+
+.Mysquare{
+    width : 200px;
+    height: 200px;
+    border:5px solid yellow;
+    border-radius: 30px;
+    border-color: black;
+
+
+}
+@keyframes movesquare {
+   from{
+    tranform:rotate(0deg);
+   } 
+   to{
+    tranform:rotate(360);
+   }
+}
